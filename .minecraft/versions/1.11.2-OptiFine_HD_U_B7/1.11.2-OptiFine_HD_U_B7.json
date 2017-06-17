@@ -1,0 +1,39 @@
+{
+  "inheritsFrom": "1.11.2",
+  "id": "1.11.2-OptiFine_HD_U_B7",
+  "time": "2017-02-27T11:13:05+01:00",
+  "releaseTime": "2016-12-21T10:29:12+01:00",
+  "type": "release",
+  "minecraftArguments": "--username ${auth_player_name} --version ${version_name} --gameDir ${game_directory} --assetsDir ${assets_root} --assetIndex ${assets_index_name} --uuid ${auth_uuid} --accessToken ${auth_access_token} --userType ${user_type} --versionType ${version_type}  --tweakClass optifine.OptiFineTweaker",
+  "libraries": [
+    {
+      "name": "optifine:OptiFine:1.11.2_HD_U_B7"
+    },
+    {
+      "name": "net.minecraft:launchwrapper:1.7"
+    }
+  ],
+  "mainClass": "net.minecraft.launchwrapper.Launch",
+  "minimumLauncherVersion": 18,
+  "assets": "1.11",
+  "downloads": {
+    "client": {
+      "url": "https://launcher.mojang.com/mc/game/1.11.2/client/db5aa600f0b0bf508aaf579509b345c4e34087be/client.jar",
+      "sha1": "db5aa600f0b0bf508aaf579509b345c4e34087be",
+      "size": 9198097
+    },
+    "server": {
+      "url": "https://launcher.mojang.com/mc/game/1.11.2/server/f00c294a1576e03fddcac777c3cf4c7d404c4ba4/server.jar",
+      "sha1": "f00c294a1576e03fddcac777c3cf4c7d404c4ba4",
+      "size": 9720835
+    }
+  },
+  "assetIndex": {
+    "totalSize": 124627552,
+    "id": "1.11",
+    "known": true,
+    "url": "https://launchermeta.mojang.com/mc/assets/1.11/ea7f56173691250e9805db5e3dda2d65b951ede3/1.11.json",
+    "sha1": "ea7f56173691250e9805db5e3dda2d65b951ede3",
+    "size": 157395
+  }
+}
